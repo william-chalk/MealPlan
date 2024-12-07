@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Fianl Project</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./projectJS.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="banner" src="./assets/banner.svg"/>
+    </header>
+    <main id="main">
+        <div id="formContainer">
+        <form id="form">
+            <label id="luserName" for="iuserName">Enter Full Name:</label>
+            <input id="iuserName" type="text" name="userName" autocomplete="given-name" required><br/>
+            <label id="lemail" for="iemail">Enter Email Address:</label>
+            <input id="iemail" type="email" name="userEmail" autocomplete="email" required><br/>
+            <button type="button" id="userInfosbmt">Click to Continue.</button>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
